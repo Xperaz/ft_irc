@@ -1,4 +1,16 @@
-#include "headers.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Topic.cpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aouhadou <aouhadou@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/29 21:08:06 by aouhadou          #+#    #+#             */
+/*   Updated: 2023/09/29 21:08:18 by aouhadou         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../includes/headers.hpp"
 
 std::string server::clear_topic(std::string token, Client &client)
 {

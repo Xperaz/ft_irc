@@ -1,4 +1,16 @@
-# include "headers.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Quit.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aouhadou <aouhadou@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/29 21:07:48 by aouhadou          #+#    #+#             */
+/*   Updated: 2023/09/29 21:08:23 by aouhadou         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../includes/headers.hpp"
 
 std::string server::quit_response(std::vector<std::string> split, Client &client, fd_set *master)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   privmsg.cpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mabdelba <mabdelba@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aouhadou <aouhadou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/11 07:01:49 by waelhamd          #+#    #+#             */
-/*   Updated: 2023/04/16 14:46:06 by mabdelba         ###   ########.fr       */
+/*   Updated: 2023/09/29 21:08:36 by aouhadou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "headers.hpp"
+#include "../includes/headers.hpp"
 
 static void 	split_command(std::string buff, std::vector<std::string> &split)
 {

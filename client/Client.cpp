@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "headers.hpp"
+#include "../includes/headers.hpp"
 
 
 Client::Client(): _fd(0), _nick("*"),_userName("userName"), _pass(false), _reg(false),_auth(false),_print(false)

@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "headers.hpp"
-#include "server.hpp"
+#include "../includes/headers.hpp"
 
 
 bool check_inVect(std::vector<int> vect, int value)

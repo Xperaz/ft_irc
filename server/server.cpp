@@ -1,4 +1,16 @@
-#include "headers.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   server.cpp                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aouhadou <aouhadou@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/29 21:09:18 by aouhadou          #+#    #+#             */
+/*   Updated: 2023/09/29 21:23:37 by aouhadou         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../includes/headers.hpp"
 
 /***** Class Methodes ****/
 int server::_port = 0;
@@ -12,7 +24,7 @@ server::server(int port, std::string pass)
 {
     _port = port;
     if (_port < 6667 || _port > 6672)
-        throw std::invalid_argument("port must be between 6667 and 7005");
+        throw std::invalid_argument("port must be between 6667 and 6672");
     this->_pass = pass;
 }
 

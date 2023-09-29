@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "headers.hpp"
+#include "../includes/headers.hpp"
 
 static void 	split_command(std::string buff, std::vector<std::string> &split)
 {

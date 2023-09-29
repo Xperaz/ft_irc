@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "headers.hpp"
+#include "../includes/headers.hpp"
 
 std::string 	server::kick_response(std::vector<std::string> split, Client &client)
 {

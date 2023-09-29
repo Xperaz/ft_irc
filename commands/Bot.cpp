@@ -1,18 +1,4 @@
-#include "headers.hpp"
-
-// void    server::bot() {
-//     std::cout << "\033[1;31m" << "╔══════════════════════════════════════════╗\n"
-//               << "║              Channel Rules               ║\n"
-//               << "╠══════════════════════════════════════════╣\n"
-//               << "║ \033[0;36m1. Be respectful and courteous to others \033[1;31m║\n"
-//               << "║ \033[0;36m2. No spamming, trolling, or hate speech \033[1;31m║\n"
-//               << "║ \033[0;36m3. Keep discussions on-topic             \033[1;31m║\n"
-//               << "║ \033[0;36m4. No NSFW content or discussions        \033[1;31m║\n"
-//               << "║ \033[0;36m5. Follow the instructions of the mods   \033[1;31m║\n"
-//               << "╚══════════════════════════════════════════╝\n"
-//               << "\033[0m";
-// }
-
+#include "../includes/headers.hpp"
 
 std::string get_weather_info(std::string json)
 {

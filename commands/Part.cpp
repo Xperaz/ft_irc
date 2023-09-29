@@ -1,4 +1,16 @@
-#include "headers.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Part.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aouhadou <aouhadou@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/29 21:07:25 by aouhadou          #+#    #+#             */
+/*   Updated: 2023/09/29 21:07:26 by aouhadou         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../includes/headers.hpp"
 
 std::string server::part1(std::string token, Client &client)
 {

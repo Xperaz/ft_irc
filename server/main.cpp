@@ -1,5 +1,16 @@
-#include "headers.hpp"
-#include "server.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aouhadou <aouhadou@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/29 21:09:14 by aouhadou          #+#    #+#             */
+/*   Updated: 2023/09/29 21:09:15 by aouhadou         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../includes/headers.hpp"
 
 void    welcome_message(int fd, Client &client)
 {
